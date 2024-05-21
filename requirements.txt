@@ -1,0 +1,11 @@
+streamlit
+pandas
+scikit-learn
+numpy
+matplotlib
+bs4
+lxml
+requests
+plotly
+prophet
+statsmodels
