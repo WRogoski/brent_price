@@ -203,13 +203,13 @@ def tab3():
     st.title('Modelo preditivo')
     st.markdown('<h5> <b>Petróleo Brent (FOB) </b></h5>', unsafe_allow_html=True)
     st.markdown('Série histórica de preços do Petróleo Brent (FOB) em 2024')
-    imagem1 = 'C:\Users\antonio.rogoski\brent_price\dtat_price\brentfob.png'
+    imagem1 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/Brent_avg.png'
     st.image(imagem1, caption='Sua imagem PNG', use_column_width=True)
 
     
     st.markdown('<h5> <b>Modelo Preditivo </b></h5>', unsafe_allow_html=True)
     st.markdown(f'Para construção do modelo foi utilizado o Prophet, que, considerando a base de preços de 2024, entregou a melhor predição, apresentando um MAPE de {mape:.2f}%.')
-    imagem2 = 'C:\Users\antonio.rogoski\brent_price\dtat_price\prophet.png'
+    imagem2 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/prophet.png'
     st.image(imagem2, caption='Sua imagem PNG', use_column_width=True)
 
     st.markdown('<h5> <b>Modelo Preditivo </b></h5>', unsafe_allow_html=True)
