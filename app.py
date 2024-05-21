@@ -61,13 +61,11 @@ def tab3():
     st.markdown(f'Para construção do modelo foi utilizado o Prophet, que, considerando a base de preços de 2024, entregou a melhor predição, apresentando um MAPE de 1,38%.')
     st.markdown('<h5> <b>Petróleo Brent (FOB) </b></h5>', unsafe_allow_html=True)
     st.markdown('Série histórica de preços do Petróleo Brent (FOB) em 2024')
-    imagem1 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/Brent_avg.png'
-    st.image(imagem1)
+
 
     
     st.markdown('<h5> <b>Modelo Preditivo </b></h5>', unsafe_allow_html=True)
-    imagem2 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/prophet.png'
-    st.image(imagem2)
+
 
 
 # Aplicativo Streamlit
