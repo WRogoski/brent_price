@@ -201,19 +201,17 @@ print(f"MAPE: {mape:.2f}%")
 
 def tab3():
     st.title('Modelo preditivo')
+    st.markdown(f'Para construção do modelo foi utilizado o Prophet, que, considerando a base de preços de 2024, entregou a melhor predição, apresentando um MAPE de {mape:.2f}%.')
     st.markdown('<h5> <b>Petróleo Brent (FOB) </b></h5>', unsafe_allow_html=True)
     st.markdown('Série histórica de preços do Petróleo Brent (FOB) em 2024')
     imagem1 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/Brent_avg.png'
-    st.image(imagem1, caption='Sua imagem PNG', use_column_width=True)
+    st.image(imagem1)
 
     
     st.markdown('<h5> <b>Modelo Preditivo </b></h5>', unsafe_allow_html=True)
-    st.markdown(f'Para construção do modelo foi utilizado o Prophet, que, considerando a base de preços de 2024, entregou a melhor predição, apresentando um MAPE de {mape:.2f}%.')
     imagem2 = 'https://raw.githubusercontent.com/WRogoski/brent_price/main/prophet.png'
-    st.image(imagem2, caption='Sua imagem PNG', use_column_width=True)
+    st.image(imagem2)
 
-    st.markdown('<h5> <b>Modelo Preditivo </b></h5>', unsafe_allow_html=True)
-    st.markdown(f'Para construção do modelo foi utilizado o Prophet, que, considerando a base de preços de 2024, entregou a melhor predição, apresentando um MAPE de {mape:.2f}%.')
 
 # Aplicativo Streamlit
 def main():
